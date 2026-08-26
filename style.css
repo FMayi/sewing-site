@@ -7,6 +7,10 @@ body {
 
 }
 
+img {
+    max-width: 100%;
+  }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -37,7 +41,9 @@ body {
 .gallery a:hover img {
     outline: 2px solid #333;
   }
-  
+  .gallery a:hover span {
+    text-decoration: underline;
+  }
 .post img{
     width: 100%;
     height: auto;
