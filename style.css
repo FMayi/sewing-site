@@ -25,13 +25,19 @@ body {
     display: block;
     text-decoration: none;
     color: #333;
+
 }
 
 .gallery a span{
     display: block;
     margin-top: 0.5rem;
-    font-size: 0..95rem;
+    font-size: 0.95rem;
 }
+
+.gallery a:hover img {
+    outline: 2px solid #333;
+  }
+  
 .post img{
     width: 100%;
     height: auto;
